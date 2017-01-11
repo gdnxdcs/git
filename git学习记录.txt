@@ -15,5 +15,6 @@ git remote rm origin //命令删除远程分支
 git checkout -b dev //创建dev分支，然后切换到dev分支
 git branch dev //创建dev分支
 git checkout dev //切换分支
-git merge dev //合并分支，需先切换到master分支上
+git merge dev //合并分支，合并某分支到当前分支
 git branch -d dev // 删除dev分支
+git branch //查看分支
