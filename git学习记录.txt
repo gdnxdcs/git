@@ -1,11 +1,19 @@
-git config --global user.name "gdnxdcs" //设置用户名
+git config --global user.name "gdnxdcs@gmail.com" //设置用户名
 git config --global user.email "gdnxdcs@gmail.com" //设置用户邮箱
+git init //创建版本库
 git config --list //查看配置信息
 git config core.quotepath false //git status 中文文件名乱码
 git config --gobal core.autocrlf false //换行符警告
 git reset --hard HEAD"^" //windows版本回退命令
 git config --global i18n.commitencoding utf-8
 git config --global i18n.logoutputencoding gbk //注：设置 commit 提交时使用 utf-8 编码，可避免 Linux 服务器上乱码；同时设置在执行 git log 时将 utf-8 编码转换成 gbk 编码，以解决乱码问题。
+ssh-keygen -t rsa -C "gdnxdcs@gmail.com" //创建SSH Key
 git remote add origin https://github.com/gdnxdcs/git-.git //远程仓库
 git push -u origin master //第一次同步
 git push origin master //同步推送最新修改
+git remote rm origin //命令删除远程分支
+git checkout -b dev //创建dev分支，然后切换到dev分支
+git branch dev //创建dev分支
+git checkout dev //切换分支
+git merge dev //合并分支，需先切换到master分支上
+git branch -d dev // 删除dev分支
