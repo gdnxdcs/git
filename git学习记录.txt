@@ -4,6 +4,8 @@ git init //创建版本库
 git config --list //查看配置信息
 git config core.quotepath false //git status 中文文件名乱码
 git config --gobal core.autocrlf false //换行符警告
+git status //git 状态
+git log //git 修改提交记录
 git reset --hard HEAD"^" //windows版本回退命令
 git config --global i18n.commitencoding utf-8
 git config --global i18n.logoutputencoding gbk //注：设置 commit 提交时使用 utf-8 编码，可避免 Linux 服务器上乱码；同时设置在执行 git log 时将 utf-8 编码转换成 gbk 编码，以解决乱码问题。
