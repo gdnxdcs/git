@@ -19,3 +19,6 @@ git merge dev //合并分支，合并某分支到当前分支
 git branch -d dev // 删除dev分支
 git branch //查看分支
 git pull origin master //远程同步
+git stash //储存当前进度
+git stash apply ** //恢复进度
+git stash drop //删除stash
