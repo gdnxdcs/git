@@ -24,3 +24,4 @@ git pull origin master //远程同步
 git stash //储存当前进度
 git stash apply ** //恢复进度
 git stash drop //删除stash
+git config --global color.ui true //让Git显示颜色，会让命令输出看起来更醒目
